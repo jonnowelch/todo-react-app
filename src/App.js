@@ -3,15 +3,17 @@ import Navbar from "./components/Navbar";
 import ItemsList from "./components/ItemsList";
 import ThemeContextProvider from "./contexts/ThemeContext";
 import ThemeToggle from "./components/ThemeToggle";
+import AuthContextProvider from "./contexts/AuthContext";
 
 function App() {
   return (
     <div className="App">
-      {console.log("hello")}
       <ThemeContextProvider>
-        <Navbar />
-        <ItemsList />
-        <ThemeToggle />
+        <AuthContextProvider>
+          <Navbar />
+          <ItemsList />
+          <ThemeToggle />
+        </AuthContextProvider>
       </ThemeContextProvider>
     </div>
   );
