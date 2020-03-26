@@ -16,6 +16,7 @@ class AuthContextProvider extends Component {
         value={{ ...this.state, toggleAuth: this.toggleAuth }}
       >
         {this.props.children}
+        {console.log(this.props.children)}
       </AuthContext.Provider>
     );
   }
