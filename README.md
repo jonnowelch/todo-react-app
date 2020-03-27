@@ -1,3 +1,5 @@
-This is my todo app while I learn React Context and Hooks.
+This is a very basic web app I was playing around with to learn React Context and Hooks.
 
-I will be working regularly on this and commiting often so this is likely to change a lot.
+I have nested context and hooks for the first time, as well as introducing a dark/light theme toggle.
+
+I am currently working on a fully fledged to-do app at https://github.com/jonnowelch/task-app.git if you want to see my progress.
